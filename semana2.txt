@@ -1,3 +1,0 @@
-NOMBRE = "Piero"
-Edad = 20
-Voltaje = 3.14156
