@@ -16,4 +16,5 @@ for i in voltaje_lista:
     if i <= 10
     elif i >= 20
     else i <= 30
+#EN PROCESO
         
