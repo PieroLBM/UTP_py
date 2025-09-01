@@ -8,4 +8,3 @@ print("voltaje medido:"+ str(v)) #cuando se utiliza el signo "+" no puede sumars
 print("Voltaje medido:", v)  # en este caso solo se usa la coma "," y no es necesario agregar el comando str("variable")
 print("Con fecha:", fecha) 
 print("Saludos,", nombre)
-#prueba

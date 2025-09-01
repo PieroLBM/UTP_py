@@ -10,4 +10,4 @@ for i in range(10):
        print("valor bajo: " + str(v))
     elif v < 500:
       print("valor medio: " + str(v))
-     
+     #prueba de cambio
