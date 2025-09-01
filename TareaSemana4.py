@@ -7,7 +7,7 @@ valores = []
     #contenido = file.read()
     #print(contenido)                                
 
-with open("mediciones_basico.txt", "r", encoding="utf-8") as file:
+with open("mediciones_200_mixto.txt", "r", encoding="utf-8") as file:
     for linea in file:
         s=linea.strip()
         if not s or s.startswith("#"): #si la linea esta vacia o empieza con #, la ignora
@@ -20,11 +20,10 @@ with open("mediciones_basico.txt", "r", encoding="utf-8") as file:
         except ValueError:
             print(f"Valor no numerico: {s}") #si no es ni linea ni numero, lo ignora
             pass
-
 Vmayor = []
 Vmenor = []
 for i in valores:
-    if i >= 5:
+    if i >= str(5):
         Vmayor.append(i)
     else:
         Vmenor.append(i)
@@ -33,3 +32,5 @@ print(Vmenor)
     
 print(len(Vmayor))
 print(len(Vmenor))
+
+
